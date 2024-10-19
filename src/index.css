@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    color: #fff;
+    position: relative;
+    background: linear-gradient(90deg, #000, rgb(20, 2, 33), #000);
+    z-index: 10;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h4 {
+    color: #000;
+    padding: 10px 20px;
+    border: 1.5px solid gray;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.853);
+    left: 0;
+    bottom: -100%;
+    color: #000;
+    border-radius: 70%;
+    transition: all ease 0.4s;
+}
+
+h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+h4 a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+h4:hover a {
+    color: #000;
+}
+
+#togglebtn {
+    margin-top: -1rem;
+    margin-left: -1rem;
+    position: fixed;
+
+}
+
+#logo {
+    font-family: "Kolker Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+  
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 8s linear infinite;
+  }
+  
