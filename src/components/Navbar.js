@@ -35,7 +35,7 @@ const Navbar = () => {
       <Toaster />
       <nav id='navbar' className="navbar border-b border-gray-700 backdrop-blur-md p-2 w-full">
         <div className="container mx-auto flex justify-between items-center" data-aos="fade-down">
-          <div id='logo' className="text-3xl lg:text-5xl text-[rgba(255,255,255,0.7)] font-semibold">Aman</div>
+          <div id='logo' className="text-3xl lg:text-5xl text-[rgba(255,255,255,0.7)] font-semibold">Aman Marve</div>
           <div className="hidden font-semibold items-center md:flex space-x-9" data-aos="fade-right">
             <a href="#home">Home</a>
             <a href="#about">About</a>
