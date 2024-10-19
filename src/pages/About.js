@@ -11,7 +11,7 @@ const About = () => {
       <div id="about" className="flex md:-mt-20 gap-10 flex-col md:flex-row items-center justify-start min-h-screen p-8 md:p-16">
         <div className="flex flex-col items-center md:items-start md:w-1/2">
           <div className="relative flex flex-col items-center md:items-start text-center md:text-left">
-            <img src={Profile} className="rounded-full w-40 h-40 md:w-72 md:h-72 object-cover" alt="About Me" />
+            <img src={Profile} className="rounded-full w-40 h-40 md:ml-28 md:w-72 md:h-72 object-cover" alt="About Me" />
             <p className='md:text-left p-2 text-xl font-bold text-gray-500 mt-4'>
               <span className='text-white'>Software Developer</span> with expertise in Frontend and Backend development, also experienced in working with top service-based teams.
             </p>
