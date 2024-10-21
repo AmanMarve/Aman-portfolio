@@ -8,7 +8,7 @@ const Footer = () => {
       <p className="mb-2 mt-4">Designed and Developed by Aman Marve.</p>
       <p>Built With</p>
       <div className="flex items-center space-x-2">
-        <FaReact id='react-logo' className="text-[#61DBFB] text-xl" />
+        <FaReact id='react-logo' className="text-[#61DBFB] text-2xl" />
         <span>React</span> &nbsp; &
         <SiTailwindcss className="text-teal-400 text-2xl" />
         <span>Tailwind CSS</span>
