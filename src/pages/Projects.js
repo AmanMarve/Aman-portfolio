@@ -11,10 +11,10 @@ import '../index.css'
 const projectsData = [
   {
     title: "Ganesh Services",
-    description: "Upcoming Ecommerce app with CRUD operations designed for business purposes.",
+    description: "E-commerce application with admin panel, Build with MERN and tailwindCSS, also this is my first project which i have created with my own practices.",
     techs: [<FaReact className="text-blue-500 text-2xl" />, <RiTailwindCssFill className="text-blue-500 text-2xl" />, <SiExpress className="text-yellow-700 text-2xl" />, <FaNodeJs className="text-green-700 text-2xl" />, <SiMongodb className="text-green-700 text-2xl" />],
-    link: "#upcoming",
-    status: 'Upcoming',
+    link: "https://ganesh-roservices.netlify.app/",
+    status: 'Completed',
     image: GaneshServices
   },
   {
