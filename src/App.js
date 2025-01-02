@@ -9,6 +9,8 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import './App.css';
 import './locomotive.css';
+import { Toaster } from 'react-hot-toast';
+
 
 function App() {
   const containerRef = useRef(null);
@@ -27,12 +29,13 @@ function App() {
       containerRef={containerRef}
     >
       <div data-scroll-container ref={containerRef}>
-        <Navbar className='sticky z-1000 top-0'/>
-        <Home data-scroll-section/>
-        <About data-scroll-section/>
+        <Toaster position="top-center" />
+        <Navbar className='sticky z-1000 top-0' />
+        <Home data-scroll-section />
+        <About data-scroll-section />
         <Project data-scroll-section />
         <Contact data-scroll-section />
-        <Footer/>
+        <Footer />
       </div>
     </LocomotiveScrollProvider>
   );
