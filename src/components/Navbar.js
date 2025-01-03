@@ -32,7 +32,7 @@ const Navbar = () => {
   }, [theme]);
 
   const handleResume = () => {
-    const pdfUrl = "Aman_marve_resume.pdf";
+    const pdfUrl = "Aman_marve_frontend.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Aman_marve_resume.pdf";
