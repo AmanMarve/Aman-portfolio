@@ -39,7 +39,7 @@ const Contact = () => {
     const pdfUrl = "Aman_marve_resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Aman_marve_resume.pdf";
+    link.download = "Aman_marve_frontend.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
