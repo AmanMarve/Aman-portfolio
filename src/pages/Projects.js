@@ -5,7 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import GaneshServices from '../assets/GaneshService.png';
 import RaybanUI from '../assets/RayBan BG.png';
 import WeatherApp from '../assets/Wheater App.png';
-import Quotation from '../assets/quotation.jpg'
+import Quotation from '../assets/Quotation.png'
 import '../index.css';
 
 const projectsData = [
