@@ -5,9 +5,21 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import GaneshServices from '../assets/GaneshService.png';
 import RaybanUI from '../assets/RayBan BG.png';
 import WeatherApp from '../assets/Wheater App.png';
+import Quotation from '../assets/quotation.jpg'
 import '../index.css';
 
 const projectsData = [
+  {
+    title: "Quotation Generator",
+    description: "I developed a Quotation Generator application to simplify the daily quotation creation process for a friend who needed to generate multiple quotations efficiently.",
+    techs: [
+      <FaReact className="text-blue-500 text-2xl" />,
+      <RiTailwindCssFill className="text-blue-500 text-2xl" />,
+    ],
+    link: "https://quotation-app-mini.netlify.app/",
+    status: 'Completed',
+    image: Quotation
+  },
   {
     title: "Ganesh Services",
     description: "E-commerce application with admin panel. Built with MERN and TailwindCSS. My first project created independently.",
