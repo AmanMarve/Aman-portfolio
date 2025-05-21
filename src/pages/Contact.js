@@ -36,10 +36,10 @@ const Contact = () => {
   };
 
   const handleResume = () => {
-    const pdfUrl = "Aman_marve_resume.pdf";
+    const pdfUrl = "Aman_marve_frontend.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Aman_marve_frontend.pdf";
+    link.download = "Aman_marve_resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -145,7 +145,7 @@ const Contact = () => {
             </a>
           </div>
           <a
-            href="#demo"
+            href="#resume"
             onClick={handleResume}
             className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-green-600 dark:bg-green-700 border border-transparent rounded-md hover:bg-green-700 dark:hover:bg-green-800 cursor-pointer"
           >

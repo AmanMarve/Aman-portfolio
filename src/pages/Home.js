@@ -7,6 +7,7 @@ import Sticker from '../assets/sticker.svg';
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs } from 'react-icons/fa';
 import { SiMongodb, SiExpress, SiPostgresql } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Home = () => {
   const [text] = useTypewriter({
@@ -26,13 +27,13 @@ const Home = () => {
     <div className='min-h-screen'>
       <div
         id="home"
-        className="home-container mt-6 md:mt-[3rem] flex -mb-10 flex-col md:flex-row items-start justify-start relative px-4"
+        className="home-container mt-6 md:mt-[3rem] flex -mb-10 flex-col md:flex-row items-start justify-start relative px-[6%]"
         data-aos="fade-up" // AOS animation applied here
       >
         <img
           src={Sticker}
           alt='sticker'
-          className='absolute z-0 w-[25%] mx-5 md:mx-5 h-auto max-w-[200px] md:w-[12%] md:h-auto md:max-w-none filter invert-[0.1] opacity-10 dark:opacity-100 dark:block hidden'
+          className='absolute z-0 w-[25%] mx-5 md:mx-3 md:-my-5 h-auto max-w-[200px] md:w-[12%] md:h-auto md:max-w-none filter invert-[0.1] opacity-10 dark:opacity-100 dark:block hidden'
           data-aos="fade-right" // AOS animation applied here
         />
 
@@ -69,7 +70,7 @@ const Home = () => {
         <div className='mb-6 -mx-4 md:mb-0'>
           <ul className='md:text-[17px] font-semibold items-start p-2 w-[150%] text-[14px] text-gray-900 dark:text-gray-300'>
             <li>🚀Currently specializing in Frontend (ReactJs).</li>
-            <li>⚡Web Developer at <span className='text-[#BB3CCF] font-semibold'>"Sapalogy Pvt Ltd"</span>.</li>
+            <li>⚡Frontend Developer at <span className='text-[#BB3CCF] font-semibold'>"RidesIQ"</span>.</li>
           </ul>
         </div>
         <div className='mt-10 md:mt-0'>
@@ -84,6 +85,7 @@ const Home = () => {
             data-aos="fade-left"
           >
             <FaReact className="text-4xl mb-2 text-blue-500 dark:text-blue-400" />
+            <RiNextjsFill className="text-4xl mb-2" />
             <FaHtml5 className="text-4xl mb-2 text-orange-600 dark:text-orange-400" />
             <FaCss3Alt className='text-4xl mb-2 text-blue-700 dark:text-blue-500' />
             <FaJs className="text-4xl mb-2 text-yellow-400 dark:text-yellow-300" />
