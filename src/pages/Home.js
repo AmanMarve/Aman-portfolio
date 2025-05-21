@@ -45,7 +45,7 @@ const Home = () => {
             Hi there!👋 I'm
           </p>
           <h1
-            className='text-[3.5rem] w-[150%] -mx-5 text-left -mt-5 md:-mt-10 lg:text-[6rem] font-bold text-left md:text-left text-gray-900 dark:text-white'
+            className='text-[3.5rem] w-[150%] -mx-5 -mt-5 md:-mt-10 lg:text-[6rem] font-bold text-left md:text-left text-gray-900 dark:text-white'
             data-aos="fade-down" // AOS animation applied here
           >
             Aman Marve.
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
         <div className='mt-10 md:mt-0'>
           <p
-            className='font-bold md:text-[xl] text-[15px] text-gray-400 mb-8 md:mb-6 text-center md:text-right text-gray-900 dark:text-gray-300'
+            className='font-bold md:text-[xl] text-[15px] text-gray-400 mb-8 md:mb-6 text-center md:text-right dark:text-gray-300'
             data-aos="fade-right" // AOS animation applied here
           >
             My skills
